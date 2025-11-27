@@ -23,5 +23,3 @@
 
 // 8. Compilación: Convierte código TypeScript a JavaScript.
 //    Ejemplo: tsc archivo.ts genera archivo.js
-
-console.log("Glosario completado.");
