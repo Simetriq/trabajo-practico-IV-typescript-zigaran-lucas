@@ -11,8 +11,3 @@ function logMessage(level: LogLevel, message: string): void {
 }
 
 let orderStatus: orderStatus = "pending";
-console.log("Order Status:", orderStatus);
-
-logMessage(LogLevel.Info, "Order has been placed.");
-logMessage(LogLevel.Warning, "Stock is low.");
-logMessage(LogLevel.Error, "Payment failed.");
