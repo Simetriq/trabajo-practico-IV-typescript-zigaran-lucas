@@ -14,4 +14,7 @@ let myProduct: Product = {
 
 console.log("Product Name:", myProduct.name);
 console.log("Product Price:", myProduct.price);
-console.log("Product ID:", productId);
+console.log("Product ID (string):", productId);
+
+productId = 123;
+console.log("Product ID (number):", productId);

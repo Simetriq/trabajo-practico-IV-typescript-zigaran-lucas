@@ -7,8 +7,8 @@ var LogLevel;
 function logMessage(level, message) {
     console.log("[".concat(level, "] ").concat(message));
 }
-var currentStatus = "pending";
-console.log("Order Status:", currentStatus);
+var orderStatus = "pending";
+console.log("Order Status:", orderStatus);
 logMessage(LogLevel.Info, "Order has been placed.");
 logMessage(LogLevel.Warning, "Stock is low.");
 logMessage(LogLevel.Error, "Payment failed.");
