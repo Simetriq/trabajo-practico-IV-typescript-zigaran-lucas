@@ -10,8 +10,8 @@ function logMessage(level: LogLevel, message: string): void {
     console.log(`[${level}] ${message}`);
 }
 
-let status: orderStatus = "pending";
-console.log("Order Status:", status);
+let currentStatus: orderStatus = "pending";
+console.log("Order Status:", currentStatus);
 
 logMessage(LogLevel.Info, "Order has been placed.");
 logMessage(LogLevel.Warning, "Stock is low.");
